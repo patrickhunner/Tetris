@@ -6,7 +6,7 @@ This is a playable tetris clone developed with pygame. It follows the original B
 
 ### Cloning
 
-Here is an overview of how to run the project:
+Here is an overview of how to run the project (Prerequisite is that you have installed [Python3](https://www.python.org/downloads/):
 
     ```bash
     # Go to the project directory
@@ -18,18 +18,7 @@ Here is an overview of how to run the project:
     # Run the project (./build/web-app <port> <web folder>)
     python3 tetris.py
     ```
-    
-### Docker
-
-To run the docker image, run
-
- ```bash
-    # pull the image
-    docker pull phunner/tetris
-    
-    # run the image
-    docker run -it --rm phunner/tetris
-```
+  
 ## Bugs
 
 Currently, due to poor initial design, the game will not end when you have lost but rather crash due to an overload of pieces being created. This problem would be a way to contribute to the project or I will hopefully come back around and fix it soon.
